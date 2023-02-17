@@ -70,13 +70,7 @@ paste \
 awk 'BEGIN {FS=OFS="\t"} {print $2,$3}' AccessionNumbers_taxids_linking_table > AccessionNumbers_taxids_linking_table_extracted
 cat AccessionNumbers_taxids_linking_table_extracted Missing_taxids > AccessionNumbers_taxids_linking_table_final
 # Clean up temporary files
-rm AccessionNumbers
-rm AccessionNumbers_found_in_accession2taxid
-rm AccessionNumbers_not_found
-rm AccessionNumbers_not_found.xml
-rm AccessionNumbers_taxids_linking_table
-rm AccessionNumbers_taxids_linking_table_extracted
-rm Missing_taxids
+rm AccessionNumbers AccessionNumbers_found_in_accession2taxid AccessionNumbers_not_found AccessionNumbers_not_found.xml AccessionNumbers_taxids_linking_table AccessionNumbers_taxids_linking_table_extracted Missing_taxids
 ```
 
 ## Geting taxonomic lineages for each taxid
@@ -182,7 +176,7 @@ qiime feature-classifier fit-classifier-naive-bayes \
   --i-reference-taxonomy rpoc_qiime2_db_tax_2023-2-16.qza \
   --o-classifier rpoc_qiime2_classifier_2023-2-16.qza
 # cleanup
-
+rm -r assembly_summary.txt query wget-log missing all_genomes.fna Fasta_file* nucl_gb.accession2taxid duplicate_rpoc_loci rpoc.ids rpoc.fna rpoc.qza rpoc_extracted.qza dna-sequences.fasta Taxids Global_table Fasta_file temp* Taxonomic_lineages taxdump/
 ```
 
 
