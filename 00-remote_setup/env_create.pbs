@@ -1,0 +1,7 @@
+#PBS -N env_create
+#PBS -l select=1:ncpus=2:mem=50gb
+#PBS -l walltime=2:00:00
+#PBS -m abe
+
+module add anaconda3/2023.1
+conda env create -f long_oral_microbiome/environment.yml
