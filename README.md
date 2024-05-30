@@ -1,5 +1,7 @@
 # Stability of the oral microbiome in children with HIV
 
+[![DOI](https://zenodo.org/badge/776010265.svg)](https://zenodo.org/doi/10.5281/zenodo.11396311)
+
 This repository describes the analysis performed in the paper *Mann et al. //////*. Raw read processing steps and all figure generation/statistical analysis scripts are found in the folders in this repository. If you are trying to recreate any of the scripts/analyses described in the paper and run into any trouble, please open an issue!
 
 NOTE: UNDER CONSTRUCTION 🚧
@@ -53,6 +55,3 @@ R -e 'install.packages("stringi", repos="http://cran.us.r-project.org")'
 ```bash
 conda deactivate
 ```
-
-# long_oral_microbiome
-# long_oral_microbiome
