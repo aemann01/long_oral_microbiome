@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/776010265.svg)](https://zenodo.org/doi/10.5281/zenodo.11396311)
 
-This repository describes the analysis performed in the paper *Mann et al. 2025. HIV Infection and Exposure is Associated with Increased Cariogenic Taxa, Reduced Taxonomic Turnover, and Homogenized Spatial Differentiation for the Supragingival Microbiome. In Press*. Raw read processing steps and all figure generation/statistical analysis scripts are found in the folders in this repository. If you are trying to recreate any of the scripts/analyses described in the paper and run into any trouble, please open an issue!
+This repository describes the analysis performed in the paper *Mann et al. 2025. HIV Infection and Exposure is Associated with Increased Cariogenic Taxa, Reduced Taxonomic Turnover, and Homogenized Spatial Differentiation for the Supragingival Microbiome. 2025*. Raw read processing steps and all figure generation/statistical analysis scripts are found in the folders in this repository. If you are trying to recreate any of the scripts/analyses described in the paper and run into any trouble, please open an issue!
 
 ## Setup 
 
